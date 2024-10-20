@@ -7,7 +7,7 @@
 	},
 	{
 		"name": "Luckpool2",
-        	"url": "stratum+tcp://eu.luckpool.net:3956",
+        	"url": "stratum+tcp://eu.luckpool.net:3957",
 		"timeout": 150
 	},
 	{
@@ -22,6 +22,6 @@
 	"threads": 8,
 	"cpu-priority": 1,
 	"retry-pause": 5,
-	"api-allow": "192.168.1.111",
+	"api-allow": "192.168.1.111/16",
 	"api-bind": "0.0.0.0:4068"
 }
